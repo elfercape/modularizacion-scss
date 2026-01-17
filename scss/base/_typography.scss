@@ -1,6 +1,7 @@
+@use '../abstracts/variables' as v;
 body {
-  font-family: $font-main;
-  color: $dark;
+  font-family: v.$font-main;
+  color: v.$dark;
   line-height: 1.6;
 }
 h1,

@@ -1,0 +1,71 @@
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+
+.header {
+  background: #1f2937;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background: #ddd;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn--primary {
+  background: #6366f1;
+  color: #ffffff;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.card__title {
+  color: #6366f1;
+}
+
+.home-hero {
+  padding: 50px 0;
+  background: #6366f1;
+}
+
+.about-section {
+  font-style: italic;
+}
+
+.theme-light {
+  background: #fff;
+  color: #333;
+}
+
+/*# sourceMappingURL=main.css.map */

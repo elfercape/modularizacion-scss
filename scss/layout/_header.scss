@@ -1,6 +1,7 @@
+@use '../abstracts/variables' as v;
 .header {
-  background: $dark;
-  color: $white;
+  background: v.$dark;
+  color: v.$white;
   padding: 20px;
   text-align: center;
 }

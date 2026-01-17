@@ -1,10 +1,11 @@
+@use '../abstracts/variables' as v;
 .btn {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   &--primary {
-    background: $primary;
-    color: $white;
+    background: v.$primary;
+    color: v.$white;
   }
 }

@@ -1,25 +1,25 @@
 // 1. Abstracts
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
+@use 'abstracts/variables';
+@use 'abstracts/mixins';
 
 // 2. Vendors
-@import 'vendors/normalize';
+@use 'vendors/normalize';
 
 // 3. Base
-@import 'base/reset';
-@import 'base/typography';
+@use 'base/reset';
+@use 'base/typography';
 
 // 4. Layout
-@import 'layout/header';
-@import 'layout/footer';
+@use 'layout/header';
+@use 'layout/footer';
 
 // 5. Components
-@import 'components/buttons';
-@import 'components/cards';
+@use 'components/buttons';
+@use 'components/card';
 
 // 6. Pages
-@import 'pages/home';
-@import 'pages/about';
+@use 'pages/home';
+@use 'pages/about';
 
 // 7. Themes
-@import 'themes/light';
+@use 'themes/ligth';
