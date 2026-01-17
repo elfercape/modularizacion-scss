@@ -1,20 +1,25 @@
-/* ARQUITECTURA SASS 7-1
-   Organización:
-   1. Abstracts: Variables y herramientas (No generan CSS).
-   2. Base: Estilos globales y reset.
-   3. Layout: Estructura de la página.
-   4. Components: Piezas reutilizables (Botones, Cards, etc).
-*/
-
 // 1. Abstracts
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
 
-// 2. Base
+// 2. Vendors
+@import 'vendors/normalize';
+
+// 3. Base
 @import 'base/reset';
+@import 'base/typography';
 
-// 3. Layout
-@import 'layout/container';
+// 4. Layout
+@import 'layout/header';
+@import 'layout/footer';
 
-// 4. Components
-@import 'components/card';
+// 5. Components
+@import 'components/buttons';
+@import 'components/cards';
+
+// 6. Pages
+@import 'pages/home';
+@import 'pages/about';
+
+// 7. Themes
+@import 'themes/light';
